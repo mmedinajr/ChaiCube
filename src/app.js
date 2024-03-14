@@ -1,4 +1,5 @@
 //Example 1 - Mocha & Chai Testing Cube Class
+//Testing commit changes with Git CI workflow tru vscode
 
 class Cube {
     constructor(length) {
