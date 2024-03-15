@@ -10,14 +10,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  ecs:
-    name: Easy Coding Standard
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Easy Coding Standard Action
-      uses: zingimmick/ecs-action@0.0.4
-      
+     
   build:
 
     runs-on: ubuntu-latest
