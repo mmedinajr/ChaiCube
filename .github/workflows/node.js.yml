@@ -21,6 +21,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Check code coverage
+      uses: themichaelhall/check-code-coverage@v2
+      with:
+        report: coverage.xml
+        required-percentage: 80
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:

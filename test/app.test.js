@@ -11,7 +11,7 @@ done();
 
 it('2. The surface area of the Cube', function(done) {
 let c2 = new Cube(5);
-expect(c2.getSurfaceArea()).to.equal(153);//update Pass 150 for failure
+expect(c2.getSurfaceArea()).to.equal(150);//update Pass 150 for failure
 done();
 });
 
